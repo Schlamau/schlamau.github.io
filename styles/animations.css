@@ -30,8 +30,8 @@
 }
 .image_cycler img {
 border-radius: .75em;
-color: hsl(220, 70%, 70%);
-border-width: .5em;
+color: hsl(0, 0%, 0%);
+border-width: 0em;
 border-style: solid;
 opacity: 0;
 width: 100%;

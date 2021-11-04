@@ -1,0 +1,100 @@
+/* media */
+
+/* smol phone */
+@media only screen and (max-width: 510px) {
+	nav {
+		font-size: 80%;
+	}
+
+	header,
+	.footer-body {
+		font-size: 80%;
+		margin-top: -.5em;
+	}
+
+	p.label,
+	div.content-content,
+	div.content-description,
+	table {
+		font-size: 80%;
+	}
+
+	main {
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+	}
+}
+
+/* smol phone */
+
+
+
+
+/* medium screen */
+@media only screen and (min-width: 510px) {
+	nav {
+		font-size: 90%;
+	}
+
+	header,
+	.footer-body {
+		font-size: 90%;
+	}
+
+	.headline>div {
+		padding-top: 1.5em;
+	}
+
+	p.label,
+	div.content-content,
+	div.content-description,
+	table {
+		font-size: 80%;
+	}
+
+	main {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/* medium screen */
+
+
+
+/* medium-big screen*/
+@media only screen and (min-width: 700px) {
+	main {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+/* medium-big screen*/
+
+
+
+
+/* big screen */
+@media only screen and (min-width: 1080px) {
+	main {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	nav,
+	header,
+	.footer-body {
+		font-size: 110%;
+	}
+
+	label,
+	.accordion-content>p {
+		font-size: 120%;
+	}
+}
+
+/* big screen */
+
+
+/* media */
