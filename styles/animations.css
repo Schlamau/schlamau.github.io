@@ -2,16 +2,72 @@
   0% {
     opacity: 0;
   }
-  5% {
+  3% {
     opacity: 1;
   } 
-  25% {
+  20% {
     opacity: 1;
   }
-  30% {
+  25% {
     opacity: 0;
   }
   100% {
     opacity: 0;
   }
 }
+
+
+
+/* cyceling_images */
+.image_cycler {
+  margin-top: 6em;
+  position: relative;
+}
+#placeholder {
+  position: relative;
+  top: -1.16em;
+  opacity: 0;
+}
+.image_cycler img {
+border-radius: .75em;
+color: hsl(220, 70%, 70%);
+border-width: .5em;
+border-style: solid;
+opacity: 0;
+width: 100%;
+height: auto;
+animation-name: imagecyclingimage;
+animation-iteration-count: infinite;
+position: absolute;
+top: 0;
+left: 0;
+animation-duration: 115s;
+}
+
+#imgcycle1 {animation-delay:0s;
+} 
+#imgcycle2 {animation-delay:5s;} 
+#imgcycle3 {animation-delay:10s;} 
+#imgcycle4 {animation-delay:15s;} 
+#imgcycle5 {animation-delay:20s;} 
+#imgcycle6 {animation-delay:25s;} 
+#imgcycle7 {animation-delay:30s;} 
+#imgcycle8 {animation-delay:35s;} 
+#imgcycle9 {animation-delay:40s;} 
+#imgcycle10 {animation-delay:45s;} 
+#imgcycle11 {animation-delay:50s;} 
+#imgcycle12 {animation-delay:55s;} 
+#imgcycle13 {animation-delay:60s;} 
+#imgcycle14 {animation-delay:65s;} 
+#imgcycle15 {animation-delay:70s;} 
+#imgcycle16 {animation-delay:75s;} 
+#imgcycle17 {animation-delay:80s;} 
+#imgcycle18 {animation-delay:85s;} 
+#imgcycle19 {animation-delay:90s;} 
+#imgcycle20 {animation-delay:95s;} 
+#imgcycle21 {animation-delay:100s;} 
+#imgcycle22 {animation-delay:105s;} 
+#imgcycle23 {animation-delay:110s;} 
+
+
+/* cyceling_images */ 
