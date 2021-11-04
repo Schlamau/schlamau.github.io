@@ -91,68 +91,20 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	background-color: #1e1e2e;
+	background-color: hsl(100, 40%, 80%);
 	font-family: Sans-Serif;
 }
 main {
 	flex: 1 0 auto;
 }
 footer {
-	color: #eeeeee;
-	background: #151525;
+	color: #222;
+	background: hsl(100, 50%, 60%);
 	position: relative;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 }
 /* Genaral */
-
-
-
-/* cyceling_images */
-.image_cycler {
-  margin-top: 1em;
-  position: relative;
-}
-.image_cycler img {
-	border-radius: .75em;
-	color: #eeeeee;
-	border-style: solid;
-	opacity: 0;
-}
-
-#imgcycle1, #imgcycle2, #imgcycle3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-
-#imgcycle0 {
-  animation-name: imagecyclingimage;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
-}
-#imgcycle1 {
-  animation-name: imagecyclingimage;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-delay: 5s;
-}
-#imgcycle2 {
-  animation-name: imagecyclingimage;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-delay: 10s;
-}
-#imgcycle3 {
-  animation-name: imagecyclingimage;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-delay: 15s;
-}
-
-/* cyceling_images */
 
 
 
@@ -175,7 +127,7 @@ nav {
 	rgba(21,21,37,1);
 	border-bottom-left-radius: 1em;
 	border-bottom-right-radius: 1em;
-	background-color: #151525;
+	background-color: hsl(100, 70%, 40%);
 	z-index: 100;
 }
 
@@ -206,7 +158,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: #008800;
+	background-color: hsl(100, 50%, 60%);
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 	border-bottom-left-radius: 1em;
@@ -283,7 +235,7 @@ div.dropdown-content > a:visited {
 	font-size: 1.5em;
 	font-weight: 500;
 	letter-spacing: 0.2em;
-	background-color: #2b2b3b;
+	background-color: hsl(261, 100%, 77%);
 	color: #eeeeee;
 	border-bottom-left-radius: 1em;
 	border-bottom-right-radius: 1em;
