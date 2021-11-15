@@ -37,6 +37,7 @@ ul {
 }
 
 li {
+	margin-right: .25em;
 	float: left;
 }
 
@@ -48,6 +49,7 @@ li a,
 	text-align: center;
 	padding: .7em 1em;
 	text-decoration: none;
+	transition: .5s;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -84,6 +86,7 @@ li.dropdown {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	transition: .5s;
 }
 
 .dropdown-content a:first-of-type {

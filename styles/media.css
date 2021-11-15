@@ -35,6 +35,9 @@
 	nav {
 		font-size: 90%;
 	}
+	.image-cycler {
+		margin-top: 10em;
+	}
 
 	header,
 	.footer-body {
@@ -64,9 +67,11 @@
 
 /* medium-big screen*/
 @media only screen and (min-width: 700px) {
-	main, nav ul {
-		margin-left: 10%;
-		margin-right: 10%;
+	nav ul, main, header, footer  {
+		margin: 0 10%;
+	}
+	.image-cycler {
+		margin-top: 10em;
 	}
 }
 
@@ -77,20 +82,17 @@
 
 /* big screen */
 @media only screen and (min-width: 1080px) {
-	main, nav ul {
-		margin-left: 15%;
-		margin-right: 15%;
+	nav ul, main, header, footer  {
+		margin: 0 20%;
+	}
+	main {
+		margin-top: 3em;
 	}
 
 	nav,
 	header,
 	.footer-body {
 		font-size: 110%;
-	}
-
-	label,
-	.accordion-content>p {
-		font-size: 120%;
 	}
 }
 

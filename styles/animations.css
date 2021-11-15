@@ -20,9 +20,10 @@
 
 /* cyceling_images */
 .image_cycler {
-  margin-top: 6em;
+  margin-top: 4em;
   position: relative;
 }
+
 #placeholder {
   position: relative;
   top: -1.16em;
